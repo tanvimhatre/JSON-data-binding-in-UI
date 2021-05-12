@@ -1,0 +1,242 @@
+html,
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    color: #4a4a4a;
+    position: relative;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.line-h {
+    line-height: 1.5;
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.w-170 {
+    width: 170px;
+}
+
+.width-100 {
+    width: 100px;
+    text-align: center;
+}
+
+.wrapper .info-text {
+    background-color: #f7ca1e;
+    color: #193761;
+    padding: 5px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 13px;
+}
+
+.wrapper .main-content {
+    background-color: #6053c9;
+    border-radius: 30px;
+    padding: 50px;
+    color: #ffffff;
+    z-index: 2;
+    position: relative;
+}
+
+.main-content button.btn,
+.tabs-content a,
+.main-content .tabs-content .nav-pills .nav-link.active,
+.main-content .tabs-content .nav-pills .show>.nav-link {
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.main-content button.btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.btn-purple,
+.main-content .tabs-content .nav-pills .nav-link.active,
+.main-content .tabs-content .nav-pills .show>.nav-link .tabs-content .nav-link.purple.active {
+    background-color: #0d2d90;
+    border-color: #0d2d90;
+}
+
+.btn-yellow {
+    background-color: #f7ca1e;
+    color: #0b2f90;
+    font-weight: 700;
+    border-radius: 22px;
+    /* width: 150px; */
+    padding: 12px 60px;
+    font-size: 14px;
+}
+
+.btn-out-secondary {
+    background: transparent;
+}
+
+.select-input {
+    width: 160px;
+}
+
+.select-input select,
+.select-input select:focus {
+    background: transparent;
+    box-shadow: none;
+    color: #ffffff;
+    font-weight: 600;
+    border-color: transparent transparent #9f9f9f transparent;
+}
+
+.select-input select option { color: black; }
+
+.label-text,
+.course-topics,
+.font-s-14 {
+    font-size: 14px;
+}
+
+.label-text p {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.label-text span {
+    color: #f8cd0c;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.yellow {
+    color: #f8cd0c;
+}
+
+.btn-dark-yellow {
+    background-color: #ffb310;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+
+.course-topics {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.main-footer-layer {
+    background-color: #0b2f90;
+    padding: 50px;
+    padding-top: 74px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #ffffff;
+    z-index: 1;
+    margin-top: -24px;
+}
+
+.main-footer-layer h4 {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.main-footer-layer h5 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.main-footer-layer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.wrapper .badge {
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding: .25em .4em;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.main-footer-layer .badge-light {
+    background-color: #f8f9fa;
+    color: #0b2f90;
+    margin-bottom: 10px;
+}
+
+.badge-purple {
+    background-color: #6658c3;
+    color: #ffffff;
+}
+
+.main-footer-layer .strike-text {
+    text-decoration: line-through;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.strike-amt-text {
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.monthy-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7b6fd1;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.monthy-block:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.monthy-block .custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color: #6253cb;
+
+}
+
+.monthy-block .custom-radio {
+    cursor: pointer;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.monthy-block small {
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.dark-yellow {
+    color: #dda62f;
+}
